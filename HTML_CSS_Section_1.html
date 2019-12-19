@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sectin 1</title>
+</head>
+<style>
+    #hred:hover{
+        color: red;
+    }
+    #btn1{
+        float: right;    
+        }
+    
+    .container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 10px;
+        background-color: #CCCC;
+        padding: 10px;
+    }
+
+    .container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+
+    .it1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+</style>
+<body>
+    <center><p>Hi, I'm Mohamed El Hafed EHMEDANE</p></center>
+
+    <ol>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Mango</li>
+        <li>Kiwi</li>
+    </ol>
+
+    <table border="1">
+        <th>Name</th>
+        <th>Age</th>
+        <tr>
+            <td>Jhone</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Bush</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>Mike</td>
+            <td>29</td>
+        </tr>
+        <tr>
+            <td>Tony</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Lupfthi</td>
+            <td>19</td>
+        </tr>
+    </table>
+
+    <p id="hred">Hi again, It's always me, but with some red.</p>
+    <button id="btn1">Floating Btn</button>
+
+
+    <div class="container">
+        <div class="it1">1</div>
+        <div class="it2">2</div>
+        <div class="it3">3</div>  
+        <div class="it4">4</div>
+        <div class="it5">5</div>
+        <div class="it6">6</div>
+        <div class="it7">7</div>
+        <div class="it8">8</div>  
+    </div>
+</body>
+</html>
